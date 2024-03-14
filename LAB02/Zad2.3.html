@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h2>* denotes mandatory</h2>
+    <form>
+        <label for="fname">Full name*:</label><br>
+        <input type="text" id="fname" placeholder="FirstName LastName"><br>
+        <label for="mail">E-mail*:</label><br>
+        <input type="text" id="email"><br>
+        <label for="tour">Select Tour Package*:</label><br>
+        <select  id="email" id="tour">
+            <option value="Belize">Belize</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Radom">Radom</option>
+        </select><br>
+        <label for="adate">Arrival date*:</label><br>
+        <input type="text" id="adate" placeholder="d/m/y"><br>
+        <label for="nperson">Number of persons*:</label><br>
+        <input type="text" id="nperson"><br>
+        <label for="anvail">What would you want to anvail*:</label><br>
+        <input type="checkbox" id="option1" value="Boarding">
+        <label for="vehicle1"> Boarding</label><br>
+        <input type="checkbox" id="option2" value="Fooding">
+        <label for="vehicle2"> Fooding</label><br>
+        <input type="checkbox" id="option3" value="Sightseeing">
+        <label for="vehicle3"> Sightseeing</label><br>
+        <label for="code">Discount Coupon code:</label><br>
+        <input type="text" id="code"><br>
+        <label for="terms">Terms and conditions*:</label><br>
+        <input type="radio" id="terms">I aggre
+        <input type="radio" id="terms">I disaggre<br>
+        <input type="button" id="send" value="Complete Reservation">
+    </form>
+</body>
+</html>
