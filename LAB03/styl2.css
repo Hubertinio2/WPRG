@@ -1,0 +1,24 @@
+.x ~ .b {
+    background-color: aqua;
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+.strong {
+    font-weight: bolder;
+}
+
+.second {
+    text-align: left;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    line-height: 20px;
+}
