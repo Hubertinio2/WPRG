@@ -1,0 +1,55 @@
+body {
+    background-color:aliceblue;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 8px;
+    color: darkgreen;
+    font-family: Verdana;
+}
+
+h2 {
+    text-align: left;
+    padding: 20px;
+    font-family: Verdana;
+    background-color: darkgreen;
+    color: white;
+    margin: 0;
+}
+
+.amongus {
+    align-self:  center;
+    margin: auto;
+    width: 25%;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+.ul {
+    color: darkgreen;
+    float: right;
+    padding-right: 15px;
+}
+
+.kod {
+    align-self: right;
+    float: right;
+    padding-right: 15px;
+}
+
+.dane {
+    color: green;
+    align-self: left;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 15px;
+}
+
+.dane2 {
+    align-self: left;
+    padding-left: 15px;
+}
