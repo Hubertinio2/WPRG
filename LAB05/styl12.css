@@ -1,0 +1,93 @@
+#headercontainer {
+    height: 300px;
+    gap: 70px;
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://wallpapers.net/dark-forest-hd-wallpaper/download/5120x2160.jpg");
+    background-size: 750px;
+    color: white;
+}
+
+#mainheader{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+    height: 10%;
+}
+
+#undermainheader {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    opacity: 0.8;
+    align-items: flex-start;
+    color: white;
+    background-color: black;
+    list-style: none;
+    padding: .5em;
+    margin: 0px;
+}
+
+li {
+    flex-direction: row;
+    margin-right: auto;
+}
+
+
+#container{
+    margin: 0px;
+}
+
+#boxes {
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+    grid-template-columns: 210px 210px 210px;
+    grid-template-rows: auto auto auto auto;
+}
+
+#green {
+    background-color: rgb(94, 114, 88);
+    font-size: 0.5em;
+    text-align: end;
+    line-height: 33em;
+    padding-right: 2px;
+    font-family: Verdana;
+    color: white;
+    height: 47%;
+}
+
+.right {
+    margin-left: 120px
+}
+
+#bigbox {
+    width: 300px;
+}
+
+#smallbox {
+    width: 200px;
+}
+
+#bigbox, #smallbox {
+    height: 300px;
+    border: 2px solid black;
+}
+
+#bigtext {
+    margin-top: 0px;
+    padding: 0px 5px 0px 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#smalltext {
+    margin-top: -10px;
+    padding: 0px 5px 0px 5px;
+    font-size: 0.5em;
+}

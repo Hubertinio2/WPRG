@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    text-align: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.flex {
+    width: 100%;
+    flex: 0 0 5%;
+}
+
+.flex1 {
+    background-color: rgb(246, 147, 221);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex2 {
+    background-color: burlywood;
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex3 {
+    background-color: rgb(192, 192, 192);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex4 {
+    background-color: rgb(255, 242, 0);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex5 {
+    background-color: rgb(78, 240, 60);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex6 {
+    background-color: rgb(46, 207, 207);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex7 {
+    background-color: rgb(224, 71, 71);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex8 {
+    background-color: rgb(203, 157, 228);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex9 {
+    background-color: rgb(31, 87, 98);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.flex10 {
+    background-color: rgb(74, 44, 44);
+    color: white;
+    font-size: 28px;
+    text-shadow: 2px 2px 2px black;
+}

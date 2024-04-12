@@ -1,0 +1,99 @@
+html {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#container {
+    margin: 0px;
+    display: grid;
+    height: 0px;
+    gap: 20px;
+    justify-content: center;
+}
+
+#toptext {
+    grid-row-start: 2;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+#tablediv {
+    grid-row-start: 2;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#toptable, th, td {
+    text-align: start;
+    font-size: 28px;
+    border: solid 1px black;
+}
+
+th {
+    background-color: rgb(200, 200, 200);
+}
+
+ul {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    background-color: rgb(200, 200, 200);
+    list-style: none;
+    padding: 5px;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#formularz {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid 1px black;
+    padding-left: 10px;
+}
+
+label, textarea, input, button {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+input, textarea, button {
+    width: 95%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    height: 3em;
+}
+
+#bottom {
+    background-color: rgb(200, 200, 200);
+    text-align: center;
+    font-size: 20px;
+    font-family:'Segoe UI';
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

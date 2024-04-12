@@ -1,0 +1,43 @@
+#container {
+    display: grid;
+    gap: 20px;
+    grid: 60px 60px 60px 60px 60px 60px 60px 60px/ 18.95% 18.95% 18.95% 18.95% 18.95%;
+    height: 0px;
+}
+
+#container > div {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: rgb(237, 230, 188);
+    text-align: center;
+    border: 2px solid black;
+}
+
+div#nine {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-color: rgb(255, 149, 110);
+}
+
+div#eleven {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    background-color: rgb(229, 224, 231);
+}
+
+div#sixteen {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: rgb(134, 223, 226);
+}
+
+div#twentynine {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: burlywood;
+}
